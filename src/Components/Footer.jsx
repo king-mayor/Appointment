@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="flex justify-center">
+      <div className="flex justify-center lg:px-0 px-10">
         <p className="lg:text-md text-sm text-gray-600 py-6">
           Copyright 2024 @mayorodegbaro@gmail.com - All Right Reserved.
         </p>
