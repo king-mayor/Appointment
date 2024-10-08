@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../assets/logo-BNCDJ_dh.svg";
+
+import logo from "../assets/logo-BNCDj_dh.svg";
 const Footer = () => {
   return (
     <>
