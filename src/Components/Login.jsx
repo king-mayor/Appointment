@@ -39,7 +39,7 @@ const Login = () => {
                   create account
                 </button>
               </div>
-              <div className="flex">
+              <div className="flex gap-2">
                 <p className="text-sm text-gray-600">Create a new account?</p>
                 <Link to="/account">
                   <p className="text-sm text-blue-600 cursor-pointer border-b-2 border-blue-600">
