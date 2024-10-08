@@ -16,7 +16,7 @@ const DoctorProfiles = () => {
         {DoctorData.slice(0, 10).map((product) => (
           <div
             key={product.id}
-            className="border-2 rounded-xl pb-6 cursor-pointer hover:-translate-y-2 hover:duration-500"
+            className="border-2 rounded-xl pb-6 cursor-pointer hover:-translate-y-2 hover:duration-500 w-3/2 lg:mx-0 mx-10"
           >
             <div className="">
               <img
