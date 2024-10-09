@@ -12,7 +12,7 @@ const DoctorProfiles = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 text-center justify-items-center gap-4 py-6">
+      <div className="container mx-auto grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text-center justify-items-center gap-4 py-6">
         {DoctorData.slice(0, 10).map((product) => (
           <div
             key={product.id}
@@ -20,7 +20,7 @@ const DoctorProfiles = () => {
           >
             <div className="">
               <img
-                className="bg-[#e3e7fd] rounded-t-lg"
+                className="bg-[#e3e7fd] rounded-t-lg w-full"
                 src={product.img}
                 alt="#"
               />

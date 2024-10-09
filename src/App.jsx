@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./Components/About";
 import Account from "./Components/Account";
 import AdminLogin from "./Components/AdminLogin";
+import AllDoctors from "./Components/AllDoctors";
 import Contact from "./Components/Contact";
 import DoctorsLogin from "./Components/DoctorsLogin";
 import Home from "./Components/Home";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/doctorslogin" element={<DoctorsLogin />} />
             <Route path="/adminlogin" element={<AdminLogin />} />
+            <Route path="/alldoctors" element={<AllDoctors />} />
           </Routes>
         </Router>
       </div>

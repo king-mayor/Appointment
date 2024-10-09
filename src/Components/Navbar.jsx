@@ -23,7 +23,10 @@ const Navbar = () => {
             >
               home
             </Link>
-            <Link className="uppercase text-md text-gray-950 font-medium">
+            <Link
+              to="/alldoctors"
+              className="uppercase text-md text-gray-950 font-medium"
+            >
               all doctors
             </Link>
             <Link

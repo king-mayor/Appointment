@@ -17,8 +17,8 @@ const Footer = () => {
         <div className="lg:flex lg:flex-row flex-col w-1/2 gap-20">
           <div className="lg:py-0 py-6">
             <h2 className="font-semibold text-lg">COMPANY</h2>
-            <p className="text-md text-gray-600 py-1">home</p>
-            <p className="text-md text-gray-600 py-1">About Us</p>
+            <p className="text-md text-gray-600 py-1">Home</p>
+            <p className="text-md text-gray-600 py-1">About us</p>
             <p className="text-md text-gray-600 py-1">Delivery</p>
             <p className="text-md text-gray-600 py-1">Privacy Policy</p>
           </div>
