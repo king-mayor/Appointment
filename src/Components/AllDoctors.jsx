@@ -21,7 +21,7 @@ const AllDoctors = () => {
       <div className="py-28 flex lg:flex-row flex-col justify-center mx-10 gap-4">
         <div className="1st md:flex md:flex-col gap-2 mx-10 hidden">
           <h2 className="text-gray-600 py-2 text-md">
-            Browse through the doctors specialist.
+            Browse through the specialist doctors.
           </h2>
           <button
             className="border-2 border-gray-300 text-gray-600 py-2 px-10"
