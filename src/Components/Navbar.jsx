@@ -59,7 +59,7 @@ const Navbar = () => {
                   home
                 </Link>
                 <Link
-                  to=""
+                  to="/alldoctors"
                   className="uppercase text-md text-gray-50 font-medium py-2 hover:bg-[#e04f36] hover:px-6  rounded-xl"
                 >
                   all doctors
