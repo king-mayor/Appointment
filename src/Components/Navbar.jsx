@@ -99,7 +99,7 @@ const Navbar = () => {
           </div>
           <div className="lg:flex hidden">
             <Link to="/account">
-              <button className="text-sm px-4 py-3 rounded-3xl font-light bg-primary text-gray-50">
+              <button className="text-sm px-4 py-3 rounded-3xl font-light bg-primary text-gray-50 hover:bg-[#4242b8]">
                 Create account
               </button>
             </Link>

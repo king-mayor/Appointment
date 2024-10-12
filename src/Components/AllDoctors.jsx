@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { DoctorData } from "./DoctorsData";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
+
 const AllDoctors = () => {
   const [menu, setMenu] = useState(false);
   const [products, setProducts] = useState(DoctorData);
@@ -121,6 +123,7 @@ const AllDoctors = () => {
             </button>
           </div>
         )}
+
         <div className="container mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
           {products.map((product) => (
             <div
@@ -128,11 +131,13 @@ const AllDoctors = () => {
               className="border-2 rounded-xl pb-6 cursor-pointer hover:-translate-y-2 hover:duration-500 w-3/2 lg:mx-0 mx-10"
             >
               <div className="">
-                <img
-                  className="bg-[#e3e7fd] rounded-t-lg w-full"
-                  src={product.img}
-                  alt="#"
-                />
+                <Link to={`/doctor/${product.id}`}>
+                  <img
+                    className="bg-[#e3e7fd] rounded-t-lg w-full"
+                    src={product.img}
+                    alt="#"
+                  />
+                </Link>
               </div>
               <div className="flex justify-center items-center gap-2">
                 <p className="w-2 h-2 rounded-full bg-[#09b609]"></p>

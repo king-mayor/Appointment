@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { DoctorData } from "./DoctorsData";
 
 const DoctorProfiles = () => {
@@ -19,11 +20,13 @@ const DoctorProfiles = () => {
             className="border-2 rounded-xl pb-6 cursor-pointer hover:-translate-y-2 hover:duration-500 w-3/2 lg:mx-0 mx-10"
           >
             <div className="">
-              <img
-                className="bg-[#e3e7fd] rounded-t-lg w-full"
-                src={product.img}
-                alt="#"
-              />
+              <Link to={`/doctor/${product.id}`}>
+                <img
+                  className="bg-[#e3e7fd] rounded-t-lg w-full"
+                  src={product.img}
+                  alt="#"
+                />
+              </Link>
             </div>
             <div className="flex justify-center items-center gap-2">
               <p className="w-2 h-2 rounded-full bg-[#09b609]"></p>
@@ -40,9 +43,11 @@ const DoctorProfiles = () => {
         ))}
       </div>
       <div className="flex justify-center my-6">
-        <button className="text-gray-600 bg-[#e3e7fd] rounded-2xl cursor-pointer py-2 px-8">
-          more
-        </button>
+        <Link to="/alldoctors">
+          <button className="text-gray-600 bg-[#e3e7fd] rounded-2xl cursor-pointer py-2 px-8">
+            more
+          </button>
+        </Link>
       </div>
     </div>
   );

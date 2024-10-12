@@ -24,7 +24,7 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <button className="text-gray-600 bg-[white] px-6 lg:py-3 py-1 rounded-3xl relative">
+          <button className="text-gray-600 bg-[white] px-6 lg:py-3 py-1 rounded-3xl relative outline-none border-none">
             Book appointment
             <span>
               <FaArrowRight className="absolute right-2 top-3 bottom-3 pl-2" />
