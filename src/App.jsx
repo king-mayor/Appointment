@@ -26,7 +26,8 @@ function App() {
             <Route path="/adminlogin" element={<AdminLogin />} />
             <Route path="/alldoctors" element={<AllDoctors />} />
             <Route path="/doctor/:id" element={<Doctor />} />
-            <Route path="/*" element={<NotFound />} />
+            <Route path="/notfound" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Router>
       </div>
