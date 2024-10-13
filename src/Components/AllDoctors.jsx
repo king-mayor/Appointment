@@ -124,11 +124,11 @@ const AllDoctors = () => {
           </div>
         )}
 
-        <div className="container mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+        <div className="container mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 justify-items-center">
           {products.map((product) => (
             <div
               key={product.id}
-              className="border-2 rounded-xl pb-6 cursor-pointer hover:-translate-y-2 hover:duration-500 w-3/2 lg:mx-0 mx-10"
+              className="border-2 rounded-xl pb-6 cursor-pointer hover:-translate-y-2 hover:duration-500 lg:w-3/2 w-full lg:mx-0 mx-10"
             >
               <div className="">
                 <Link to={`/doctor/${product.id}`}>
