@@ -19,25 +19,25 @@ const Navbar = () => {
           <div className="2nd lg:flex lg:flex-row items-center gap-4 hidden">
             <Link
               to="/"
-              className="uppercase text-md text-gray-950 font-medium"
+              className="uppercase text-md text-gray-950 font-medium hover:border-b-2 border-blue-700"
             >
               home
             </Link>
             <Link
               to="/alldoctors"
-              className="uppercase text-md text-gray-950 font-medium"
+              className="uppercase text-md text-gray-950 font-medium hover:border-b-2 border-blue-700"
             >
               all doctors
             </Link>
             <Link
               to="/about"
-              className="uppercase text-md text-gray-950 font-medium"
+              className="uppercase text-md text-gray-950 font-medium hover:border-b-2 border-blue-700"
             >
               about
             </Link>
             <Link
               to="/contact"
-              className="uppercase text-md text-gray-950 font-medium"
+              className="uppercase text-md text-gray-950 font-medium hover:border-b-2 border-blue-700"
             >
               contact
             </Link>
