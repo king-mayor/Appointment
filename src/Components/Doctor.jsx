@@ -48,7 +48,7 @@ const Doctor = () => {
               <p className="lg:text-md text-sm text-gray-600 py-2">
                 {items.name} has a strong commitment to delivering comprehensive
                 medical care, focusing on preventive medicine, early diagnosis,
-                and effective treatment strategies. Dr. Davis has a strong
+                and effective treatment strategies. {items.name} has a strong
                 commitment to delivering comprehensive medical care, focusing on
                 preventive medicine, early diagnosis, and effective treatment
                 strategies.

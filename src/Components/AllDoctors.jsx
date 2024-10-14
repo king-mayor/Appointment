@@ -26,37 +26,37 @@ const AllDoctors = () => {
             Browse through the specialist doctors.
           </h2>
           <button
-            className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+            className="border-2 border-gray-300 text-gray-600 py-2 px-10 hover:bg-primary hover:text-white"
             onClick={() => filterProducts("General Physician")}
           >
             General Physician
           </button>
           <button
-            className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+            className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
             onClick={() => filterProducts("Gynecologist")}
           >
             Gynecologist
           </button>
           <button
-            className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+            className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
             onClick={() => filterProducts("Dermatologist")}
           >
             Dermatologist
           </button>
           <button
-            className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+            className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
             onClick={() => filterProducts("Pediatrician")}
           >
             Pediatricians
           </button>
           <button
-            className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+            className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
             onClick={() => filterProducts("Neurologist")}
           >
             Neurologist
           </button>
           <button
-            className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+            className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
             onClick={() => filterProducts("Gastroentrologist")}
           >
             Gastroenterologist
@@ -86,37 +86,37 @@ const AllDoctors = () => {
         {menu && (
           <div className="1st flex flex-col gap-2 mx-10 md:hidden">
             <button
-              className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+              className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
               onClick={() => filterProducts("General Physician")}
             >
               General Physician
             </button>
             <button
-              className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+              className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
               onClick={() => filterProducts("Gynecologist")}
             >
               Gynecologist
             </button>
             <button
-              className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+              className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
               onClick={() => filterProducts("Dermatologist")}
             >
               Dermatologist
             </button>
             <button
-              className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+              className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
               onClick={() => filterProducts("Pediatrician")}
             >
               Pediatricians
             </button>
             <button
-              className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+              className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
               onClick={() => filterProducts("Neurologist")}
             >
               Neurologist
             </button>
             <button
-              className="border-2 border-gray-300 text-gray-600 py-2 px-10"
+              className="border-2 border-gray-300 text-gray-600 py-2 px-10  hover:bg-primary hover:text-white"
               onClick={() => filterProducts("Gastroentrologist")}
             >
               Gastroenterologist
