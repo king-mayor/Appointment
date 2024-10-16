@@ -36,7 +36,7 @@ const Login = () => {
               </div>
               <div>
                 <button className="text-gray-100 bg-primary font-semibold outline-none border-none cursor-pointer py-2 w-full rounded-lg text-md my-3">
-                  create account
+                  login
                 </button>
               </div>
               <div className="flex gap-2">
