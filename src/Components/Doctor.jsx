@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 const Doctor = () => {
   const { id } = useParams();
   const items = DoctorData.find((item) => item.id == id);
@@ -74,6 +75,10 @@ const Doctor = () => {
       {/* {Footer Section} */}
       <div>
         <Footer />
+      </div>
+      {/* {Scroll to top} */}
+      <div>
+        <ScrollToTop />
       </div>
     </div>
   );
