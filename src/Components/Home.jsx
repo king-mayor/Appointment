@@ -4,6 +4,7 @@ import DoctorProfiles from "./DoctorProfiles";
 import Footer from "./Footer";
 import Header from "./Header";
 import Navbar from "./Navbar";
+import ScrollToTop from "./ScrollToTop";
 import Speciality from "./Speciality";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <DoctorProfiles />
       <Appointment />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

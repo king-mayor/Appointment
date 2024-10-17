@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { DoctorData } from "./DoctorsData";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 const AllDoctors = () => {
   const [menu, setMenu] = useState(false);
@@ -159,6 +160,10 @@ const AllDoctors = () => {
       {/* {Footer} */}
       <div>
         <Footer />
+      </div>
+      {/* {Scroll to top} */}
+      <div>
+        <ScrollToTop />
       </div>
     </div>
   );

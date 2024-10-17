@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Aboutimg from "../assets/About-img.png";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 const About = () => {
   return (
     <div>
@@ -73,6 +74,10 @@ const About = () => {
       {/* {Footer} */}
       <div>
         <Footer />
+      </div>
+      {/* {Scroll to top} */}
+      <div>
+        <ScrollToTop />
       </div>
     </div>
   );

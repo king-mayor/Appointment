@@ -2,6 +2,7 @@ import React from "react";
 import Contactimg from "../assets/contact-img.png";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import ScrollToTop from "./ScrollToTop";
 const Contact = () => {
   return (
     <div>
@@ -45,6 +46,10 @@ const Contact = () => {
       {/* {Footer} */}
       <div>
         <Footer />
+      </div>
+      {/* {Scroll to top} */}
+      <div>
+        <ScrollToTop />
       </div>
     </div>
   );

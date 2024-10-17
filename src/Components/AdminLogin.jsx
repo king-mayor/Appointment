@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 const AdminLogin = () => {
   return (
     <div>
@@ -52,6 +53,10 @@ const AdminLogin = () => {
       {/* {Footer} */}
       <div>
         <Footer />
+      </div>
+      {/* {Scroll to top} */}
+      <div>
+        <ScrollToTop />
       </div>
     </div>
   );
