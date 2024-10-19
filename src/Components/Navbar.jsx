@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <div className="">
-        <div className="flex lg:justify-around justify-between py-2 fixed z-50 right-0 left-0 bg-[white]">
+        <div className="flex lg:justify-around justify-between py-2 fixed z-50 right-0 left-0 bg-[white] border-b-2 border-gray-200">
           <div className="1st">
             <img className="" src={logo} alt="logo" />
           </div>
