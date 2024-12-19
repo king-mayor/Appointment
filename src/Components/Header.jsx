@@ -2,6 +2,8 @@ import React from "react";
 import profiles from "../assets/group_profiles.png";
 import { FaArrowRight } from "react-icons/fa6";
 import header from "../assets/header_img.png";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <>
@@ -24,12 +26,14 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <button className="text-gray-600 bg-[white] px-6 lg:py-3 py-1 rounded-3xl relative outline-none border-none">
-            Book appointment
-            <span>
-              <FaArrowRight className="absolute right-2 top-3 bottom-3 pl-2" />
-            </span>
-          </button>
+          <Link to="/alldoctors">
+            <button className="text-gray-600 bg-[white] px-6 lg:py-3 py-1 rounded-3xl relative outline-none border-none">
+              Book appointment
+              <span>
+                <FaArrowRight className="absolute right-2 top-3 bottom-3 pl-2" />
+              </span>
+            </button>
+          </Link>
         </div>
         <div className="2nd">
           <img src={header} alt="banner-img" />
