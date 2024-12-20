@@ -45,7 +45,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/adminlogin"
-              className="text-md capitalize cursor-pointer border-2 border-gray-200 px-3 py-1 rounded-3xl"
+              className="text-md capitalize cursor-pointer border-2 border-gray-200 px-3 py-1 rounded-3xl hover:bg-primary hover:text-white"
             >
               admin panel
             </Link>
